@@ -1,0 +1,177 @@
+/* --------------------------------------------------------------
+	$Icons
+-------------------------------------------------------------- */
+
+/* Global module setup
+--------------------------------*/
+
+/* Renamed version of .fa class for agnostic useage of icon fonts.
+ * Just change the name of the font after the 14/1 to the name of
+ * the font you wish to use.
+ */
+.icon, .button .icon, blockquote cite:before, .uncited:before {
+	display: inline-block;
+  	font-weight: normal;
+  	font-style: normal;
+  	font-variant: normal;
+  	font-family: FontAwesome;
+  	font-size: 15px;
+  	line-height: 1;
+  	text-rendering: auto; /* optimizelegibility throws things off #1094 */
+  	-webkit-font-smoothing: antialiased;
+  	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon:before { padding-right: 2px; }
+
+.button .icon:before {
+	padding-right: 0;
+}
+
+/* Icon size classes - Default size is 14px, use these for small variations */
+
+.icon.icon-xl {
+	font-size: 20px;
+}
+
+.icon.icon-lg {
+	font-size: 16px;
+}
+
+.icon.icon-md {
+	font-size: 8px;
+}
+
+.icon.icon-sm {
+	font-size: 6px;
+}
+
+/* icon modifiers */
+.icon-tiny {
+	width: 12px;
+	transform: scale(0.65, 0.75);
+	vertical-align: text-bottom;
+	font-size: 16px;
+}
+
+.arrow-left .icon {
+	float: left;
+}
+
+.arrow-left:hover .icon {
+	margin-left: -5px;
+	margin-right: 5px;
+}
+
+.arrow-right .icon {
+	float: right;
+}
+
+.arrow-right:hover .icon {
+	margin-left: 5px;
+	margin-right: -5px;
+}
+
+.post-buttons .dropdown-contents .icon {
+    float: right;
+    margin-left: 5px;
+}
+
+.alert_close .icon:before {
+	padding: 0;
+    border-radius: 50%;
+    width: 11px;
+    display: block;
+    line-height: .9;
+    height: 12px;
+}
+
+.uncited:before {
+	content: "\e946";
+	    position: relative;
+	    font-family: 'giants-iconfont' !important;
+	    font-size: 10px;
+	    top: 31px;
+	    transform: translatey(-50%);
+	    left: 15px;
+	    float: left;
+	    color: #7f7f7f;
+}
+
+.rtl .uncited:before {
+	content: "\e946";
+	    position: relative;
+	    font-family: 'giants-iconfont' !important;
+	    font-size: 10px;
+	    top: 31px;
+	    transform: translatey(-50%);
+	    left: 15px;
+	    float: left;
+	    color: #7f7f7f;
+}
+
+i.gf.icon-mailgiants.fa.fa-fw {
+    font-size: 13px;
+    margin-right: 5px;
+}
+
+i.gf.icon-groupgiants.fa.fa-fw {
+	font-size: 15px;
+	margin-right: 5px;
+}
+i.gf.icon-messagegiants, i.gf.icon-questiongiants, i.gf.icon-gavelgiants {
+	font-size: 13px;
+}
+
+i.gf.icon-viewgiants {
+	font-size: 13px;
+	margin-right: 5px;
+}
+
+.crumb i.gf.icon-homegiants {
+	font-size: 13px;
+}
+
+.socialmediaicons i {
+	font-size: 15px;
+}
+
+.socialmediaicons i:hover, .socialmediaicons a {
+	text-decoration: none;
+}
+
+ .gf:hover {
+	text-decoration: none;
+}
+
+.actions-jump .button i, .actions-jump .button i:hover {
+	font-size: 10px !important;
+	margin-top: 4px;
+}
+
+ul.post-buttons i {
+    padding-left: 1px;
+    padding-right: 1px;
+}
+
+.online i.gf.icon-icon-onlinegiants {
+    color: #af0a04;
+    padding-left: 3px;
+}
+
+i.gf.icon-documentgiants.icon-md {
+    font-size: 13px;
+}
+
+.dropdowndocicon svg {
+	width: 20px;
+	height: 16px;
+}
+
+i.gf.icon-groupgiants.fa.fa-fw.lessmargin-right {
+	margin-right: 1px;
+}
+
+i.serchplusicon svg {
+	height: 14px;
+}

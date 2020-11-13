@@ -1,0 +1,30 @@
+
+
+<div class="pagination-inner">
+	<!-- IF BASE_URL and TOTAL_PAGES > 6 -->
+	<ul>
+		<li class="dropdown-container dropdown-button-control pageinli showxs jumpicon">
+			<a class="paginationlink dropdown-trigger" href="#" title="{L_JUMP_TO_PAGE_CLICK}" role="button"><i class="icon gf icon-point-arrowgiants" aria-hidden="true"></i></a>
+			<div class="dropdown">
+				<div class="pointer"><div class="pointer-inner"></div></div>
+				<ul class="dropdown-contents">
+					<li class="page-jump-text">{L_JUMP_TO_PAGE}{L_COLON}</li>
+					<li class="page-jump-form">
+						<input type="number" name="page-number" min="1" max="999999" title="{L_JUMP_PAGE}" class="inputbox tiny" data-per-page="{PER_PAGE}" data-base-url="{BASE_URL|e('html_attr')}" data-start-name="{START_NAME}" />
+						<input class="button2" value="{L_GO}" type="button" />
+					</li>
+				</ul>
+			</div>
+		</li>
+	</ul>
+	<!-- ENDIF -->
+<!-- BEGIN pagination -->
+	<!-- IF pagination.S_IS_PREV --><div class="pageinli showxs prevli"><a class="paginationlink" href="{pagination.PAGE_URL}"><i class="icon fa fa-chevron-{S_CONTENT_FLOW_BEGIN} fa fa-fw" aria-hidden="true"></i></a></div>
+	<!-- ELSEIF pagination.S_IS_CURRENT --><div class="active pageinli showxs"><a class="paginationlink">{pagination.PAGE_NUMBER}</a></div>
+	<!-- ELSEIF pagination.S_IS_ELLIPSIS --><div class="ellipsis pageinli"><a class="paginationlink">{L_ELLIPSIS}</a></div>
+	<!-- ELSEIF pagination.S_IS_NEXT --><div class="pageinli showxs nextli"><a class="paginationlink" href="{pagination.PAGE_URL}"><i class="icon fa fa-chevron-{S_CONTENT_FLOW_END} fa fa-fw" aria-hidden="true"></i></a></div>
+	<!-- ELSE --><div class="pageinli normalpaginli"><a class="paginationlink" href="{pagination.PAGE_URL}" >{pagination.PAGE_NUMBER}</a></div>
+	<!-- ENDIF -->
+
+<!-- END pagination -->
+</div>

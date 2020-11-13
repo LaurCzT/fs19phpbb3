@@ -1,0 +1,116 @@
+<!-- INCLUDE overall_header.html -->
+
+
+
+<!-- INCLUDE forumlist_body.html -->
+
+<!-- EVENT index_body_forumlist_body_after -->
+
+
+<!-- IF not S_USER_LOGGED_IN and not S_IS_BOT -->
+<div class="stat-block log-in">
+	<div class="online-header">
+	<form method="post" action="{S_LOGIN_ACTION}" class="login-form">
+	<h3><a href="{U_LOGIN_LOGOUT}">{L_LOGIN_LOGOUT}</a><!-- IF S_REGISTER_ENABLED -->&nbsp; &bull; &nbsp;<a href="{U_REGISTER}">{L_REGISTER}</a><!-- ENDIF --></h3>
+	</div>
+	<div class="stat-block-body">
+		<li class="row">
+					<dl class="row-item">
+							<dt>
+									<div class="list-inner log-in-container">
+		<fieldset class="quick-login">
+			<label for="username"><span>{L_USERNAME}{L_COLON}</span> <input type="text" tabindex="1" name="username" id="username" size="10" class="inputbox" title="{L_USERNAME}" /></label>
+			<label for="password"><span>{L_PASSWORD}{L_COLON}</span> <input type="password" tabindex="2" name="password" id="password" size="10" class="inputbox" title="{L_PASSWORD}" autocomplete="off" /></label>
+			<!-- IF U_SEND_PASSWORD -->
+		<a href="{U_SEND_PASSWORD}">{L_FORGOT_PASS}</a>
+			<!-- ENDIF -->
+			<!-- IF S_AUTOLOGIN_ENABLED -->
+				<span class="responsive-hide">|</span> <label for="autologin">{L_LOG_ME_IN} <input type="checkbox" tabindex="4" name="autologin" id="autologin" /></label>
+			<!-- ENDIF -->
+			<input type="submit" tabindex="5" name="login" value="{L_LOGIN}" class="button2" />
+			{S_LOGIN_REDIRECT}
+		</fieldset>
+	</div>
+</dt>
+</dl>
+</li>
+</div>
+</form>
+</div>
+<!-- ENDIF -->
+
+
+<!-- EVENT index_body_stat_blocks_before -->
+
+<!-- IF S_DISPLAY_ONLINE_LIST -->
+	<div class="stat-block online-list">
+		<!-- EVENT index_body_block_online_prepend -->
+		<div class="online-header">
+		<!-- IF U_VIEWONLINE --><h3><a href="{U_VIEWONLINE}">{L_WHO_IS_ONLINE}</a></h3><!-- ELSE --><h3>{L_WHO_IS_ONLINE}</h3><!-- ENDIF -->
+		<p> : {TOTAL_USERS_ONLINE}</p>
+		</div>
+		<!-- IF U_VIEWONLINE -->
+		<div class="stat-block-body">
+			<li class="row">
+						<dl class="row-item">
+								<dt>
+										<div class="list-inner users-online-container">
+												<div class="users">
+												{LOGGED_IN_USER_LIST}
+											</div>
+											<div class="legend">
+												<!-- IF LEGEND -->{L_LEGEND}{L_COLON} {LEGEND}<!-- ENDIF -->
+											</div>
+												<div class="responsive-show" style="display: none;">
+												</div>
+											</div>
+										</dt>
+							</dl>
+				</li>
+
+
+		</div>
+		<!-- ENDIF -->
+		<!-- EVENT index_body_block_online_append -->
+	</div>
+<!-- ENDIF -->
+
+<!-- EVENT index_body_birthday_block_before -->
+
+<!-- IF S_DISPLAY_BIRTHDAY_LIST -->
+	<div class="stat-block birthday-list">
+		<div class="online-header">
+			<h3>{L_BIRTHDAYS}</h3>
+		</div>
+		<div class="stat-block-body">
+			<li class="row">
+						<dl class="row-item">
+								<dt>
+										<div class="list-inner users-online-container">
+												<div class="birthdays">
+			<!-- EVENT index_body_block_birthday_prepend -->
+			<!-- IF .birthdays -->{L_CONGRATULATIONS}{L_COLON} <strong><!-- BEGIN birthdays -->{birthdays.USERNAME}<!-- IF birthdays.AGE !== '' --> ({birthdays.AGE})<!-- ENDIF --><!-- IF not birthdays.S_LAST_ROW -->, <!-- ENDIF --><!-- END birthdays --></strong><!-- ELSE -->{L_NO_BIRTHDAYS}<!-- ENDIF -->
+			<!-- EVENT index_body_block_birthday_append -->
+											</div>
+										</div>
+									</dt>
+								</dl>
+							</li>
+						</div>
+	</div>
+<!-- ENDIF -->
+
+<!-- IF NEWEST_USER -->
+<div class="stat-block stats">
+	<div class="online-header">
+		<h3>{L_STATISTICS}</h3><p class="statsinner">			<!-- EVENT index_body_block_stats_prepend -->
+
+					<span>{TOTAL_POSTS}</span>  <span>{TOTAL_TOPICS}</span>  <span>{TOTAL_USERS}</span>  <span>{NEWEST_USER}</span>
+					<!-- EVENT index_body_block_stats_append --></p>
+	</div>
+</div>
+<!-- ENDIF -->
+
+<!-- EVENT index_body_stat_blocks_after -->
+
+<!-- INCLUDE overall_footer.html -->

@@ -1,0 +1,80 @@
+@font-face {
+  font-family: 'DIN';
+  src: url("fonts/din-light-webfont.eot");
+  src: url("fonts/din-light-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/din-light-webfont.woff2") format("woff2"), url("fonts/din-light-webfont.woff") format("woff"), url("fonts/din-light-webfont.ttf") format("truetype"), url("fonts/din-light-webfont.svg#din_lightregular") format("svg");
+  font-weight: 300;
+  font-style: normal; }
+@font-face {
+  font-family: 'DIN';
+  src: url("fonts/DIN-RG-webfont.eot");
+  src: url("fonts/DIN-RG-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/DIN-RG-webfont.woff2") format("woff2"), url("fonts/DIN-RG-webfont.woff") format("woff"), url("fonts/DIN-RG-webfont.ttf") format("truetype"), url("fonts/DIN-RG-webfont.svg#dinregularregular") format("svg");
+  font-weight: 400;
+  font-style: normal; }
+@font-face {
+  font-family: 'DIN';
+  src: url("fonts/DIN-M_-webfont.eot");
+  src: url("fonts/DIN-M_-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/DIN-M_-webfont.woff2") format("woff2"), url("fonts/DIN-M_-webfont.woff") format("woff"), url("fonts/DIN-M_-webfont.ttf") format("truetype"), url("fonts/DIN-M_-webfont.svg#dinmediumregular") format("svg");
+  font-weight: 500;
+  font-style: normal; }
+@font-face {
+  font-family: 'DIN';
+  src: url("fonts/DIN-BOLD-webfont.eot");
+  src: url("fonts/DIN-BOLD-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/DIN-BOLD-webfont.woff2") format("woff2"), url("fonts/DIN-BOLD-webfont.woff") format("woff"), url("fonts/DIN-BOLD-webfont.ttf") format("truetype"), url("fonts/DIN-BOLD-webfont.svg#dinboldregular") format("svg");
+  font-weight: 700;
+  font-style: normal; }
+
+  
+  /* BEGIN Light */
+  @font-face {
+    font-family: 'Open Sans';
+    src: url("./fonts/Light/OpenSans-Light.woff2?v=1.101") format("woff2"), url("./fonts/Light/OpenSans-Light.woff?v=1.101") format("woff");
+    font-weight: 300;
+    font-style: normal;
+  }
+
+  /* END Light */
+  /* BEGIN Light Italic */
+  @font-face {
+    font-family: 'Open Sans';
+    src: url("./fonts/LightItalic/OpenSans-LightItalic.woff2?v=1.101") format("woff2"), url("./fonts/LightItalic/OpenSans-LightItalic.woff?v=1.101") format("woff");
+    font-weight: 300;
+    font-style: italic;
+  }
+
+  /* END Light Italic */
+  /* BEGIN Regular */
+  @font-face {
+    font-family: 'Open Sans';
+    src: url("./fonts/Regular/OpenSans-Regular.woff2?v=1.101") format("woff2"), url("./fonts/Regular/OpenSans-Regular.woff?v=1.101") format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  /* END Regular */
+  /* BEGIN Italic */
+  @font-face {
+    font-family: 'Open Sans';
+    src: url("./fonts/Italic/OpenSans-Italic.woff2?v=1.101") format("woff2"), url("./fonts/Italic/OpenSans-Italic.woff?v=1.101") format("woff");
+    font-weight: normal;
+    font-style: italic;
+  }
+
+  /* END Italic */
+  /* BEGIN Bold */
+  @font-face {
+    font-family: 'Open Sans';
+    src: url("./fonts/Bold/OpenSans-Bold.woff2?v=1.101") format("woff2"), url("./fonts/Bold/OpenSans-Bold.woff?v=1.101") format("woff");
+    font-weight: bold;
+    font-style: normal;
+  }
+
+  /* END Bold */
+  /* BEGIN Bold Italic */
+  @font-face {
+    font-family: 'Open Sans';
+    src: url("./fonts/BoldItalic/OpenSans-BoldItalic.woff2?v=1.101") format("woff2"), url("./fonts/BoldItalic/OpenSans-BoldItalic.woff?v=1.101") format("woff");
+    font-weight: bold;
+    font-style: italic;
+  }
+
+  /* END Bold Italic */

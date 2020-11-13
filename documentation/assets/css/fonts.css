@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'HelveticaNeueLTPro-BdCn';
+    src: url('fonts/helveticaneueltpro-bdcn.eot');
+    src: url('fonts/helveticaneueltpro-bdcn.eot?#iefix') format('embedded-opentype'),
+         url('fonts/helveticaneueltpro-bdcn.woff') format('woff'),
+         url('fonts/helveticaneueltpro-bdcn.ttf') format('truetype'),
+         url('fonts/helveticaneueltpro-bdcn.svg#helveticaneueltpro-bdcn') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HelveticaNeueLTPro-BdCnO';
+    src: url('fonts/helveticaneueltpro-bdcno.eot');
+    src: url('fonts/helveticaneueltpro-bdcno.eot?#iefix') format('embedded-opentype'),
+         url('fonts/helveticaneueltpro-bdcno.woff') format('woff'),
+         url('fonts/helveticaneueltpro-bdcno.ttf') format('truetype'),
+         url('fonts/helveticaneueltpro-bdcno.svg#helveticaneueltpro-bdcno') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

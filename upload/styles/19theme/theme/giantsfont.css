@@ -1,0 +1,322 @@
+@font-face {
+  font-family: 'giants-iconfont';
+  src:  url('fonts/giants-iconfont.eot?8t8ire');
+  src:  url('fonts/giants-iconfont.eot?8t8ire#iefix') format('embedded-opentype'),
+    url('fonts/giants-iconfont.ttf?8t8ire') format('truetype'),
+    url('fonts/giants-iconfont.woff?8t8ire') format('woff'),
+    url('fonts/giants-iconfont.svg?8t8ire#giants-iconfont') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+i.gf, .gf {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'giants-iconfont' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+.icon-sticky_unread_lockedgiants:before {
+  content: "\e900";
+}
+.icon-topic_read_lockedgiants:before {
+  content: "\e901";
+}
+.icon-add-friendgiants:before {
+  content: "\67";
+}
+.icon-angular-downgiants:before {
+  content: "\61";
+}
+.icon-angular-upgiants:before {
+  content: "\e902";
+}
+.icon-announce_unread_locked_minegiants:before {
+  content: "\e903";
+}
+.icon-announce_unread_lockedgiants:before {
+  content: "\e904";
+}
+.icon-announce_unreadgiants:before {
+  content: "\e905";
+}
+.icon-announced_unreadgiants:before {
+  content: "\e906";
+}
+.icon-arrow_downgiants:before {
+  content: "\e907";
+}
+.icon-arrow_rightgiants:before {
+  content: "\e908";
+}
+.icon-arrow-leftgiants:before {
+  content: "\e909";
+}
+.icon-arrow-upgiants:before {
+  content: "\e90a";
+}
+.icon-attachgiants:before {
+  content: "\e90b";
+}
+.icon-banggiants:before {
+  content: "\e90c";
+}
+.icon-check-docgiants:before {
+  content: "\e90d";
+}
+.icon-checkedgiants:before {
+  content: "\e90e";
+}
+.icon-chessgiants:before {
+  content: "\e90f";
+}
+.icon-configurationgiants:before {
+  content: "\e910";
+}
+.icon-copygiants:before {
+  content: "\e911";
+}
+.icon-crossgiants:before {
+  content: "\e912";
+}
+.icon-dategiants:before {
+  content: "\e913";
+}
+.icon-digggiants:before {
+  content: "\e914";
+}
+.icon-doc-banggiants:before {
+  content: "\e915";
+}
+.icon-doc-discgiants:before {
+  content: "\e916";
+}
+.icon-doc-favgiants:before {
+  content: "\e917";
+}
+.icon-documentgiants:before {
+  content: "\e918";
+}
+.icon-down-downgiants:before {
+  content: "\e919";
+}
+.icon-editgiants:before {
+  content: "\e91a";
+}
+.icon-facebookgiants:before {
+  content: "\e91b";
+}
+.icon-favgiants:before {
+  content: "\e91c";
+}
+.icon-feedgiants:before {
+  content: "\e91d";
+}
+.icon-firend-listgiants:before {
+  content: "\e91e";
+}
+.icon-forum_linkgiants:before {
+  content: "\e91f";
+}
+.icon-forum_readgiants:before {
+  content: "\e920";
+}
+.icon-forum_unread_lockedgiants:before {
+  content: "\e921";
+}
+.icon-forum_unread_subforumgiants:before {
+  content: "\e922";
+}
+.icon-gavelgiants:before {
+  content: "\e923";
+}
+.icon-google-plusgiants:before {
+  content: "\e924";
+}
+.icon-group-listgiants:before {
+  content: "\e925";
+}
+.icon-groupgiants:before {
+  content: "\e966";
+}
+.icon-homegiants:before {
+  content: "\e967";
+}
+.icon-icon_rate_badgiants:before {
+  content: "\e926";
+}
+.icon-icon_rate_goodgiants:before {
+  content: "\e927";
+}
+.icon-icon-offlinegiants:before {
+  content: "\e928";
+}
+.icon-icon-onlinegiants:before {
+  content: "\e929";
+}
+.icon-infogiants:before {
+  content: "\e92a";
+}
+.icon-instagramgiants:before {
+  content: "\e92b";
+}
+.icon-linkedingiants:before {
+  content: "\e92c";
+}
+.icon-listgiants:before {
+  content: "\e92d";
+}
+.icon-loading_01giants:before {
+  content: "\e92e";
+}
+.icon-lockgiants:before {
+  content: "\e937";
+}
+.icon-mailgiants:before {
+  content: "\e938";
+}
+.icon-member-smallgiants:before {
+  content: "\e939";
+}
+.icon-membergiants:before {
+  content: "\e93a";
+}
+.icon-message-trashgiants:before {
+  content: "\e93b";
+}
+.icon-messagegiants:before {
+  content: "\e93c";
+}
+.icon-no_avatargiants:before {
+  content: "\e93d";
+}
+.icon-notificationgiants:before {
+  content: "\e93e";
+}
+.icon-pingiants:before {
+  content: "\e93f";
+}
+.icon-pinterestgiants:before {
+  content: "\e940";
+}
+.icon-point-arrowgiants:before {
+  content: "\e941";
+}
+.icon-powergiants:before {
+  content: "\e942";
+}
+.icon-printgiants:before {
+  content: "\e943";
+}
+.icon-questiongiants:before {
+  content: "\e944";
+}
+.icon-quote_rtlgiants:before {
+  content: "\e945";
+}
+.icon-quotegiants:before {
+  content: "\e946";
+}
+.icon-recaptiongiants:before {
+  content: "\e947";
+}
+.icon-round-arrow-leftgiants:before {
+  content: "\e948";
+}
+.icon-round-arrow-rightgiants:before {
+  content: "\e949";
+}
+.icon-round-arrow-upgiants:before {
+  content: "\e94a";
+}
+.icon-round-arrown-downgiants:before {
+  content: "\e94b";
+}
+.icon-round-crossgiants:before {
+  content: "\e94c";
+}
+.icon-round-powergiants:before {
+  content: "\e94d";
+}
+.icon-rssgiants:before {
+  content: "\e94e";
+}
+.icon-searchgiants:before {
+  content: "\e94f";
+}
+.icon-snapchatgiants:before {
+  content: "\e950";
+}
+.icon-sortgiants:before {
+  content: "\e951";
+}
+.icon-square-banggiants:before {
+  content: "\e952";
+}
+.icon-square-closegiants:before {
+  content: "\e953";
+}
+.icon-squre-questiongiants:before {
+  content: "\e954";
+}
+.icon-sticky_read_locked_minegiants:before {
+  content: "\e955";
+}
+.icon-sticky_read_minegiants:before {
+  content: "\e956";
+}
+.icon-sticky_readgiants:before {
+  content: "\e957";
+}
+.icon-topic_movedgiants:before {
+  content: "\e958";
+}
+.icon-topic_read_hot_minegiants:before {
+  content: "\e959";
+}
+.icon-topic_read_hotgiants:before {
+  content: "\e95a";
+}
+.icon-topic_read_minegiants:before {
+  content: "\e95b";
+}
+.icon-topic_unread_locked_minegiants:before {
+  content: "\e95c";
+}
+.icon-topic_unreadgiants:before {
+  content: "\e95d";
+}
+.icon-trashgiants:before {
+  content: "\e95e";
+}
+.icon-trianglegiants:before {
+  content: "\e95f";
+}
+.icon-twitchgiants:before {
+  content: "\e960";
+}
+.icon-twittergiants:before {
+  content: "\e961";
+}
+.icon-viewgiants:before {
+  content: "\e962";
+}
+.icon-vinegiants:before {
+  content: "\e963";
+}
+.icon-wrenchgiants:before {
+  content: "\e964";
+}
+.icon-youtubegiants:before {
+  content: "\e965";
+}

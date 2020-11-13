@@ -1,0 +1,439 @@
+  .index textarea {
+      width:100%;
+      min-width:300px;
+      }
+
+
+
+/* Here is style for mobile devices */
+@media screen and (max-width: 520px) {
+  /* UPDATES */
+
+  body,
+  #wrapper,
+  #header,
+  #header .header-holder,
+  #footer {
+    min-width: 320px;
+  }
+
+  /* Style for mobile header */
+
+  header.mobile #container,
+  header.mobile #wrapper {
+    width: 520px;
+  }
+
+  header.mobile#header .top-img {
+    background: none;
+    overflow: hidden;
+  }
+
+  header.mobile#header .header-holder-ins {
+    width: 100%;
+    padding: 0;
+  }
+
+  header.mobile#header .header-shadow {
+    display: none;
+  }
+
+  header.mobile#header .header-left,
+  header.mobile#header .header-right {
+    display: none;
+  }
+
+  header.mobile#header .header-holder,
+  header.mobile#header .header-holder-ins-mod {
+    width: 100%;
+    padding: 0;
+  }
+
+  header.mobile#header .header-holder {
+    margin-bottom: 70px;
+  }
+
+  header.mobile#header .utility-holder {
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    background: none;
+    padding: 0;
+    z-index: 3;
+  }
+  header.mobile#header .utility-holder .utility-holder-ins {
+    background: none;
+    background-color: #ccc;
+    padding: 0;
+    width: 100%;
+    margin: 0 auto;
+  }
+  header.mobile#header .utility-holder .utility-holder-ins ul {
+    display: inline-block;
+    float: none;
+  }
+  header.mobile#header .utility-holder .utility-holder-ins ul.languages {
+    padding-top: 5px;
+    padding-right: 10px;
+    float: right;
+  }
+  header.mobile#header .utility-holder .utility-holder-ins ul.utility-nav {
+    padding-top: 5px;
+  }
+  header.mobile#header #logo_en, header.mobile#header #logo_de {
+    background-size: 115px auto;
+    width: 115px;
+    height: 55px;
+    z-index: 999;
+    top: 30px;
+    left: 0;
+  }
+  header.mobile#header #logo_en a, header.mobile#header #logo_de a {
+    width: 100px;
+    padding: 0;
+    height: 55px;
+    z-index: 1000;
+  }
+  header.mobile#header #logo_de {
+    background-size: 140px auto;
+    width: 145px;
+    left: -10px;
+  }
+  header.mobile#header #nav {
+    width: 100%;
+    float: none;
+    margin: 0 auto;
+    padding-top: 30px;
+    height: auto;
+    background: none;
+    background-color: rgba(255, 255, 255, 0.8);
+    position: relative;
+  }
+  header.mobile#header #nav ul {
+    float: none;
+    border-top: 1px solid black;
+    margin-top: -1px;
+  }
+  header.mobile#header #nav ul li {
+    padding: 5px;
+    padding-left: 0;
+    box-sizing: border-box;
+  }
+  header.mobile#header #nav ul li a {
+    background: none;
+    padding-left: 0;
+  }
+  header.mobile#header #nav ul li a span {
+    padding: 10px 5px;
+    background: none;
+  }
+  header.mobile#header #nav ul li.current-item a span {
+    color: #669900 !important;
+  }
+  header.mobile#header #nav ul li:last-child {
+    border-right: none;
+  }
+  header.mobile#header #nav .nav-menu {
+    color: #000;
+    display: block;
+    padding: 10px 10px;
+    cursor: pointer;
+    display: block !important;
+    font-size: 30px;
+    float: right;
+  }
+  header.mobile#header #nav .nav-menu:hover, header.mobile#header #nav .nav-menu:focus {
+    text-decoration: none;
+  }
+  header.mobile#header #nav .nav-list {
+    float: left;
+    width: 100%;
+    overflow: hidden;
+    height: 0;
+  }
+  header.mobile#header #nav .nav-list.nav-open {
+    height: auto;
+  }
+  header.mobile#header #nav .nav-list li {
+    width: 100%;
+  }
+  header.mobile#header #nav .nav-logo {
+    display: inline !important;
+    float: left;
+    color: #000;
+    font-weight: 600;
+  }
+
+  footer#footer.mobile {
+    background: none;
+  }
+  footer#footer.mobile .footer-ins {
+    width: 100%;
+    padding: 0;
+  }
+  footer#footer.mobile .footer-bg {
+    background: none;
+  }
+  footer#footer.mobile .footer-top {
+    height: auto;
+  }
+  footer#footer.mobile .footer-bottom {
+    margin-top: 15px;
+    background-color: #000;
+    padding: 26px 2px 48px;
+  }
+  footer#footer.mobile ul.author-box {
+    padding-right: 10px;
+  }
+
+  /* all containers */
+  #container {
+    padding: 0;
+    width: 100%;
+  }
+
+  /* twitter section on the bottom of all pages */
+  section.block {
+    background: none;
+  }
+  
+    #footer .footer-top img {
+    width:100%;
+    max-width: 728px;
+    height:auto;
+    margin: 0px auto;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  header#header.mobile#header .utility-holder .utility-holder-ins ul.languages {
+    float: none;
+  }
+
+  header#header.mobile#header .utility-holder .utility-holder-ins {
+    height: 50px;
+    text-align: center;
+  }
+
+  header#header.mobile#header #nav {
+    padding-top: 50px;
+  }
+
+  header.mobile#header #logo_en,
+  header.mobile#header #logo_de {
+    top: 50px;
+  }
+}
+
+
+@media screen and (max-width: 520px) {
+  /* login */
+  #login_style table {
+    width: 100%;
+  }
+  #login_style table tbody tr {
+    height: 35px;
+    margin: 20px;
+    height: 25px;
+  }
+  #login_style table tbody tr input {
+    width: 100% !important;
+    height: 100%;
+  }
+  #login_style table tbody tr input[type="submit"] {
+    margin-top: 25px;
+  }
+
+  #header #nav ul li a:hover,
+  #header #nav ul li.current-item a {
+    background: none;
+  }
+}
+
+@media only screen and (max-width: 520px) {
+
+  /*Footer Begin*/
+  ul.icons,
+  ul.icons li {
+    float: none;
+  }
+
+  ul.icons li {
+    display: inline-block;
+    padding: 0 8px 0 0;
+  }
+
+  .block,
+  ul.icons {
+    width: 100%;
+  }
+
+  .block {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+
+    padding: 15px 15px 28px;
+  }
+
+  #container {
+    max-width: 923px;
+    width: auto;
+  }
+
+  ul.icons {
+    text-align: center;
+  }
+
+  #footer .footer-logo,
+  #footer .footer-text,
+  #footer ul.author-box,
+  #footer ul.author-box li {
+    float: none;    
+  }
+  #footer .footer-logo {
+    margin: 0 auto;
+  }
+  #footer .footer-text {
+    padding: 10px 20px 0;
+    text-align: center;
+  }
+  #footer ul.author-box {
+    text-align: center;
+  }
+  #footer ul.author-box li {
+    margin: 0;
+    display: inline-block;
+    background-image: none;
+    padding: 0;
+  }
+  /*Footer End*/
+
+  /*Home Page*/
+  header#header.mobile #logo_en,
+  header#header.mobile #logo_de {
+    left: 5px;
+    top: 31px;    
+  }
+
+  header#header.mobile #logo_en a,
+  header#header.mobile #logo_de a {
+    width: 115px;
+  }
+
+  header#header.mobile #logo_en a:hover,
+  header#header.mobile #logo_de a:hover {
+    text-decoration: none;
+  }
+  /*Home Page End*/
+
+  /*index Page*/
+  .index .left-content {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+
+    float: none;
+    max-width: 100%;
+    padding: 30px 18px 21px;
+    width: auto;
+    margin-left: 0
+  }
+
+  .index .right-sidebar {
+    float: none;
+  }
+
+  .index .right-sidebar {
+    padding-left: 0;
+    margin: 0 auto;
+    float:none;
+  }
+  
+  section.index img {
+    max-width: 100%;
+    margin: 0px auto;
+    display:block;
+  }
+  /*index Page End*/
+}
+
+@media only screen and (max-width: 480px) {
+  header#header.mobile #logo_en,
+  header#header.mobile #logo_de {
+    top: 50px;
+  }
+}
+
+@media only screen and (max-width: 460px) {
+  .welcome-block-text,
+  .index1 .welcome-block-img {
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+
+  .index1 .left-col .welcome-block-text {
+    width: 100%;
+  }
+
+  .item-detail-info .item-info-section img,
+  .item-detail-info .item-info-section .describtion {
+    float: none;
+  }
+
+  .item-detail-info .item-info-section {
+    text-align: center;
+  }
+
+  .item-detail-info .item-info-section .describtion,
+  .item-detail-info .item-info-section img {
+    margin-left: 0;
+  }
+
+}
+
+
+
+
+
+
+
+
+/*added to fix the bug with shadow for languages icons*/
+@media screen and (max-width: 400px) and (min-width: 355px){
+    header#header.mobile#header .utility-holder .utility-holder-ins{
+    height:30px;
+  }
+
+  header#header.mobile#header #nav{
+    padding-top: 25px;
+  }
+
+  header#header.mobile #logo_en, 
+  header#header.mobile #logo_de,
+  #logo.logo-buy-page_en  {
+    top:28px!important;
+  }
+
+  #logo.logo-buy-page_de{
+    top:33px!important;
+  }
+
+  #header ul.languages li a{
+      width: 29px;
+      height: 20px;
+      overflow: hidden;
+      display: inline-block;
+  }
+
+  #header ul.languages li{
+    overflow: hidden;
+  }
+  #header ul.languages{ overflow: hidden;}
+
+  #header ul.languages li a img{
+     overflow: hidden;
+  }
+
+}
